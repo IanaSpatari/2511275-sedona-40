@@ -2,6 +2,7 @@
 
 - Студент: [Яна Спатарь](https://up.htmlacademy.ru/htmlcss/40/user/2511275).
 - Наставник: [Ирина Антипина](https://htmlacademy.ru/profile/id2108789).
+- Ссылка на сайт [Ссылка на сайт](https://ianaspatari.github.io/2511275-sedona-40/)
 
 ---
 
