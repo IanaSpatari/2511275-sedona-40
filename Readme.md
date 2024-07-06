@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Яна Спатарь](https://up.htmlacademy.ru/htmlcss/40/user/2511275).
-* Наставник: `Неизвестно`.
+- Студент: [Яна Спатарь](https://up.htmlacademy.ru/htmlcss/40/user/2511275).
+- Наставник: [Ирина Антипина](https://htmlacademy.ru/profile/id2108789).
 
 ---
 
