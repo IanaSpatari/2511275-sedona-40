@@ -77,7 +77,7 @@
   display: flex;
 }
 .header-nav-search {
-  background-image: url(images/header/search.svg);
+  background-image: url("../images/header/search.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 44px;
@@ -90,7 +90,7 @@
 }
 
 .header-nav-like {
-  background-image: url(images/header/heart.svg);
+  background-image: url("../images/header/heart.svg");
   background-repeat: no-repeat;
   background-position: center;
   padding-left: 12px;
@@ -161,7 +161,7 @@
 .main-wrapper {
 }
 .main-promo {
-  background-image: url(images/index/welcome-sedona-background.jpg);
+  background-image: url("../images/index/welcome-sedona-background.jpg");
   background-repeat: no-repeat;
   height: 485px;
 }
@@ -397,7 +397,7 @@
 
 .main-subscribe {
   display: flex;
-  background-image: url(images/index/footer-background.jpg);
+  background-image: url("images/index/footer-background.jpg");
   /* background-size: 1200px 415px;
   background-repeat: no-repeat; */
   height: 415px;
@@ -538,7 +538,7 @@
 /* Каталог */
 
 .catalog-filter {
-  background-image: url(images/catalog/filter-background.jpg);
+  background-image: url("images/catalog/filter-background.jpg");
   height: 412px;
   margin-top: 0;
   margin-bottom: 50px;
@@ -570,7 +570,7 @@
   height: 12px;
 }
 .catalof-filter-arrow {
-  background-image: url(images/catalog/arrow-from-homepage.svg);
+  background-image: url("images/catalog/arrow-from-homepage.svg");
   background-repeat: no-repeat;
   width: 8px;
   height: 20px;
@@ -772,19 +772,19 @@
 }
 
 .view-item-cards {
-  background-image: url(images/catalog/pictite-rows-style-icon.svg);
+  background-image: url("images/catalog/pictite-rows-style-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .view-item-fullscrin {
-  background-image: url(images/catalog/one-picture-style-icon.svg);
+  background-image: url("images/catalog/one-picture-style-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .view-item-list {
-  background-image: url(images/catalog/list-style-icon.svg);
+  background-image: url("images/catalog/list-style-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1010,7 +1010,7 @@
   background-color: #f2f2f2;
   border-radius: 50%;
   border: none;
-  background-image: url(images/index/cross.svg);
+  background-image: url("images/index/cross.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
