@@ -948,6 +948,19 @@
   width: 140px;
   height: 36px;
 }
+.button-favorites-checked {
+  background-color: #7db54f;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;
+  width: 140px;
+  height: 36px;
+}
 
 .item-button-favorites:hover {
   background-color: #68a2ca;
