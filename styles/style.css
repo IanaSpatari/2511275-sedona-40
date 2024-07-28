@@ -415,6 +415,10 @@
   background-image: url("../images/index/footer-background.jpg");
   height: 415px;
 }
+.catalog-main-subscribe {
+  display: flex;
+  height: 415px;
+}
 
 .subscribe-content-box {
   display: flex;
@@ -564,7 +568,7 @@
 }
 
 .catalog-filter-content {
-  width: 1060px;
+  /* width: 1060px; */
   height: 307px;
   padding-top: 35px;
   padding-left: 70px;
@@ -625,8 +629,8 @@
 }
 .filter-check-group {
   display: flex;
-  gap: 70px;
-  margin-right: 140px;
+  /* gap: 70px; */
+  /* margin-right: 140px; */
 }
 .catalog-filter-group {
   display: flex;
@@ -634,17 +638,21 @@
   width: 150px;
   border: none;
 }
+
+.catalog-filter-group-right {
+  margin-left: 70px;
+}
 .catalog-filter-list {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 15px;
   color: #ffffff;
 }
 
 .catalog-filter-title {
   font-weight: 700;
-  size: 20px;
+  font-size: 20px;
   line-height: 24px;
   color: #ffffff;
   margin-bottom: 32px;
@@ -661,6 +669,11 @@
   height: 48px;
   border-radius: 4px 0 0 4px;
   border-style: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  padding-left: 20px;
 }
 
 .price-input-right {
@@ -668,6 +681,11 @@
   height: 48px;
   border-radius: 0 4px 4px 0;
   border-style: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  padding-left: 20px;
 }
 
 .catalog-filter-item {
@@ -685,9 +703,18 @@
 .catalog-filter-item:visited {
 }
 .control {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
 }
 
 .control-input {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+
+  vertical-align: middle;
+  margin-right: 11px;
 }
 .price-check-box {
   display: flex;
@@ -695,8 +722,8 @@
 }
 .catalog-filter-price {
   display: flex;
-  min-width: 288px;
-  gap: 70px;
+
+  margin-left: 140px;
 }
 .filter-price-title {
 }
@@ -708,6 +735,7 @@
   flex-direction: column;
   margin-top: 56px;
   gap: 32px;
+  margin-left: 70px;
 }
 .button-price-apply {
   display: flex;
@@ -764,17 +792,18 @@
 .catalog-selection {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
 .catalog-selection-content {
   display: flex;
 }
-.celection-pages-found {
+.selection-pages-found {
   font-weight: 700;
   height: 49px;
   font-size: 30px;
   line-height: 36px;
+  margin-top: 8px;
 }
 
 .select {
@@ -782,6 +811,11 @@
   border-style: none;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
+  height: 49px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 15px;
 }
 .select-option {
   width: 292px;
@@ -850,6 +884,9 @@
 .hotel-item-presentation {
   width: 300px;
   max-height: 212px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
 }
 .hotel-item-price {
   display: flex;
@@ -945,6 +982,7 @@
   text-align: center;
   width: 140px;
   height: 37px;
+  text-transform: uppercase;
 }
 .item-searched {
 }
