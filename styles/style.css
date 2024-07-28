@@ -36,7 +36,6 @@
 .header-nav {
   display: flex;
   justify-content: space-between;
-  margin-left: 70px;
   margin-right: 70px;
 }
 .header-nav-left {
@@ -56,14 +55,19 @@
   text-align: center;
 }
 .nav-page-link {
-  font-weight: bold;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
   color: black;
   line-height: 24px;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.nav-page-link:hover {
+  border-bottom: 2px solid #756257;
 }
 
 .nav-page-link:hover {
@@ -164,6 +168,7 @@
   background-image: url("../images/index/welcome-sedona-background.jpg");
   background-repeat: no-repeat;
   height: 485px;
+  margin-bottom: 69px;
 }
 .promo-title {
 }
@@ -181,27 +186,27 @@
   margin-left: 371px;
   margin-right: 371px;
   margin-top: 51px;
-  margin-bottom: 82px;
+  /* margin-bottom: 82px; */
 }
 .main-description {
 }
 .main-description-introduction {
-  height: 282px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .description-title {
-  width: 620px;
+  width: 650px;
   height: 72px;
+  margin-bottom: 25px;
 }
 
 .description-subtitle {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  margin-bottom: 90px;
 }
 
 .h2-title {
@@ -209,7 +214,6 @@
   font-weight: bold;
   font-size: 30px;
   text-align: center;
-  margin-bottom: 25px;
   text-transform: uppercase;
   line-height: 36px;
   font-style: normal;
@@ -220,7 +224,6 @@
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-  margin-bottom: 25px;
   text-transform: uppercase;
   font-style: normal;
 }
@@ -259,7 +262,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -277,10 +280,19 @@
   opacity: 30%;
   margin-bottom: 30px;
 }
+
+.line-white {
+  width: 60px;
+  height: 2px;
+  background-color: #ffffff;
+  opacity: 30%;
+  margin-bottom: 30px;
+}
 .advantages-item-text {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
+  width: 250px;
 }
 .advantages-list-image {
 }
@@ -327,6 +339,7 @@
   flex-direction: column;
   gap: 30px;
   align-items: center;
+  justify-content: center;
 }
 .service-item-icon {
   width: 75px;
@@ -335,6 +348,10 @@
 .advantage-block-title {
 }
 .advantage-block-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
 .white-item {
   background-color: #fff;
@@ -374,8 +391,6 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
-  align-items: center;
-  margin-top: 14px;
   text-transform: uppercase;
 }
 
@@ -413,10 +428,10 @@
 
 .subscribe-title {
   color: white;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 21px;
   text-transform: uppercase;
   line-height: 36px;
   font-style: normal;
@@ -428,7 +443,7 @@
   color: #ffffff;
   text-align: center;
   width: 475px;
-  margin-bottom: 54px;
+  margin-bottom: 55px;
 }
 
 .black {
@@ -441,10 +456,14 @@
 }
 .input-subscribe {
   all: unset;
-  width: 452px;
+  width: 432px;
   height: 52px;
   background-color: #f2f2f2;
   border-radius: 4px 0 0 4px;
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .button-subscribe {
@@ -496,27 +515,26 @@
   display: flex;
 }
 .footer-media-link {
-  display: flex;
-  justify-content: center;
   width: 47px;
   height: 40px;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .vcontakte-icon {
   width: 24px;
   height: 14px;
 }
-.telegtam-icon {
-  width: 18px;
-  height: 16px;
-}
-.youtube-icon {
-  width: 22px;
+.telegram-icon {
+  width: 19px;
   height: 17px;
 }
+.youtube-icon {
+  width: 23px;
+  height: 18px;
+}
 .footer-tel {
-  /* display: block; */
   width: 720px;
   height: 50px;
   text-align: center;
@@ -525,8 +543,11 @@
   color: #000000;
   line-height: 40px;
   text-decoration: none;
+  margin-top: 13px;
 }
 .html-academy-link {
+  width: 115px;
+  height: 33px;
 }
 .html_academy-icon {
   width: 115px;
